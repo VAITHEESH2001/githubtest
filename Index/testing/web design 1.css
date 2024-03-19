@@ -1,0 +1,176 @@
+.flexbox{
+  background-color: aqua;
+  width: 100%;
+  height: 200px;
+  flex-direction: row;
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  
+  
+}
+#flexnum:nth-child(6){
+  align-self: center;
+
+}
+#flexnum:nth-child(2){
+  flex-grow: 2;
+  
+}
+#flexnum{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(169, 169, 192);
+  border: 4px solid red; 
+}
+.center{
+  background-color: rgb(33, 208, 132);
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centersmall{
+  background-color: aliceblue;
+  width: 100px;
+  height: 100px; 
+  
+}
+.shadow{
+  text-shadow: 4px 2px 1px rgb(252, 95, 4);
+}
+.boxshadow{
+  box-shadow: -2px 2px 2px #cb4747;
+}
+.gradient{
+  width: 500px;
+  height: 500px;
+  background:linear-gradient(red,green,blue);
+  margin: auto;
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+ 
+}
+.interface{
+  width: 500px;
+  height: 400px;
+  display: flex;
+  overflow: auto;
+  resize: both;
+  border: 5px solid black;
+  border-radius: 20px;
+  padding: 50px;
+  margin:auto;
+
+}
+.pagination{
+  
+  font-size:x-large;
+  margin: auto;
+  
+  padding: 10px;
+ text-align: center;
+
+ 
+  
+  
+}
+.pagination a:hover{
+  
+  background-color: rgb(7, 180, 219);
+  border-radius: 20px;
+}
+.pagination a:active{
+  
+  background-color: rgb(7, 180, 219);
+  border-radius: 20px;
+}
+.animation{
+  background-color: red;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  padding: 50px;
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+
+}
+@keyframes animate{
+  from{background:linear-gradient(red,green,blue);}
+  to{background:linear-gradient(rgb(238, 255, 0),rgb(128, 0, 102),rgb(13, 255, 0));}
+}
+.loading{
+  width: 90px;
+  height: 100px;
+  margin: auto;
+ 
+ 
+  border-radius: 70px;
+  border-top: 20px solid blue;
+  border-right: 20px solid transparent;
+  animation: spinner 2s linear infinite;
+
+}  
+.load{
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  margin-left: 79px;
+  margin-top: -4px;
+  border-radius: 50%;
+
+}
+@keyframes spinner{
+  100% {transform: rotate(360deg);}
+}
+.load2{
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  margin: auto;
+  border-radius: 50px;
+  border-top: 20px solid black;
+  border-right:5px solid transparent;
+  animation: loadingone 2s linear infinite;
+
+.load3{
+  width: 11px;
+  height: 11px;
+  margin:auto;
+  background-color: black;
+  border-radius: 8px;
+  margin-right: -1px;
+  margin-top: 4px;
+}
+@keyframes loadingone{
+  100%{transform: rotate(360deg);}
+}
+.load2{
+  width: 90px;
+  height: 100px;
+  margin: auto;
+ 
+ 
+  border-radius: 70px;
+  border-top: 20px solid blue;
+  border-right: 20px solid transparent;
+  animation: load4 2s linear infinite;
+
+}  
+.load3{
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  margin-left: 79px;
+  margin-top: -4px;
+  border-radius: 50%;
+
+}
+@keyframes load4{
+  100% {transform: rotate(360deg)
+  }

@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+    <HEAD>
+        
+        <title>MY FIRST WEBSITE</title></HEAD>
+
+    <BODY>
+       <!--Commend tag-->
+        <h1 style="align-items: center;"> Welcome to my website</h1>
+        <!--It is an image tag-->
+            <IMG src="./MY_PHOTO/vaitheesh.JPG"width=200 height=200></img>
+                <h4 style="color:rgb(39, 219, 219)">Vaitheeshwaran S  (Msc., Geography).</h4>
+               <h2 style="background-color: rgb(232, 9, 169);">Summary:</h2>
+               <p>I am a fullstrack developer. I like to work all programes . I am not working any where, am a <i><b>fresher</b></i>. Anybody intrested to contact me please contact thorugh What's up or instagram . My id and phone number are given in the website.</p>
+               <h2 style="background-color: rgb(232, 9, 169);"> Education:</h2>
+               <p>I have completed my both bachelors and master's in <b>Arignar anna govt arts and science colllege, Nammakal</b> and it comes under  <b>Periyar university, salem.</b></p>
+               <a href="https://aagacnkl.edu.in/"title=study>college</a><br>
+               <img src="https://tse1.mm.bing.net/th?id=OIP.ulxtLQWQQpwBFPqQ1p1ZNgHaEK&pid=Api&P=0&h=180" width=200 height=200><img><br>
+               <a href="https://www.periyaruniversity.ac.in/"title=study>university</a><br>
+               <img src="https://www.periyaruniversity.ac.in/Need/images/main_building3.jpg"width=200 height="200"><img>
+                <h2 style="background-color: rgb(232, 9, 169)">Achivements:</h2>
+                <ul><!--It is an un oredered list-->
+                    <li>Completed my bachelors degree with <b>first class </b>with <b>80% .</b></li>
+                    <li>Completed my master's degree with<b>first class </b>wiht <b>80%</b>and<b> 3<sup>rd</sup>university rank.</b> </li>
+                    <li>Completed my typewritting skill with <b>first class.</b></li>
+                </ul>
+               <h2 style="background-color: rgb(232, 9, 169)">Skills:</h2>
+                <ol><!--It is an orderd list-->
+                    <li>Fullstrack web development</li>
+                    <li>PYTHON</li>
+                    <li>HTML</li>
+                    <li>JAVA SCRIPT</li>
+                    <li>C<sup>++</sup></li>
+                    <li>React JS</li>
+                    <li>Angular JS</li>
+
+                </ol>
+                <h2 style="background-color: rgb(232, 9, 169)">Hobbies:</h2>
+                <ul>
+                    <li>Playing games</li>
+                    <li>Internet suffering</li>
+                    <li>Reading books</li>
+                </ul>
+                
+       
+    </BODY>
+
+</html>

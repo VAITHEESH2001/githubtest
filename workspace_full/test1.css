@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(225, 244, 244);
+}
+.trans{
+    width: 150px;
+    height: 20px;
+    display: flex;
+    overflow: hidden;
+    background-color: blue;
+    margin: auto;
+    padding: 50px;
+    border: 10px solid black;
+    border-radius: 20px;
+    align-items: top;
+}
+.trans:hover{
+    width: 500px;
+    height: 300px;
+    
+    transition: width 2s, height 5s;
+    transition-property: initial;
+
+
+}
+.circle{
+    
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 60px  ;
+    border-right: 10px solid blue;
+    border-left: 10px solid blue;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    animation: circle1 1s infinite;
+   
+}
+@keyframes circle1{
+    /*10% {transform: rotate(60deg);}
+    20% {transform: rotate(120deg);}
+    60% {transform: rotate(1800deg);}
+    70% {transform: rotate(270deg);}*/
+     100% {transform: rotate(360deg);}
+    
+    
+}
+iframe{ 
+    width: auto ;
+height: 100%;}
+.LOADING{
+    background-color: red;
+    width: 100PX;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+background: linear-gradient(RED ,BLUE, GREEN);
+animation: LOAD 2S infinite;
+}
+@keyframes LOAD{
+    100%{
+        transform: rotate(360DEG);
+    }
+}

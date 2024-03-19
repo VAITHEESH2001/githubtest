@@ -1,0 +1,77 @@
+<!DOCTYPE HEML>
+<HTNL>
+<HEAD>
+    <META CHARSET="UTF-8">
+        <META NAME="VIEWPORT" CONTENT="DEVICE-WIDTH">
+    <TITLE>FORMS WITH TABLE</TITLE>
+    <style>
+        table{
+            margin: auto;
+            width: 800px;
+            height: 550px;
+            margin-bottom: 100px;
+           
+        }
+        td{
+            padding-left: 10px;
+        }
+        
+    </style>
+</HEAD>
+<BODY><table border="1">
+    <form>
+        <tr  >
+        <th colspan="2"><h2>Registration Form</h2></th>
+        
+         </tr>
+        <tr>
+            <th><label >Student Name</label></th>
+            <td><input type="text" name="name"></td>
+        </tr><br>
+        <tr>
+            <th><label >Father's Name</label></th>
+            <td><input type="text" name=" father name"></td>
+        </tr><br>
+        <tr>
+            <th><label >Mother's Name</label></th>
+            <td><input type="text" name=" mother name"></td>
+        </tr><br>
+        <tr>
+            <th><label >Date of Birth</label></th>
+            <td><input type="date" name="DOB"></td>
+        </tr><br>
+        <tr>
+            <th ><label >Gender</label></th>
+            <td colspan="2"><input type="radio" name="Gender" ><label>Male</label>
+                <input type="radio" name="Gender" ><label>Female</label></td>
+           
+        </tr><br>
+        <tr>
+            <th><label >Email ID</label></th>
+            <td><input type="email" name="email"></td>
+        </tr><br>
+        <tr>
+            <th><label >Mobile No.</label></th>
+            <td><input type="tel" name="DOB"></td>
+        </tr><br>
+        <tr>
+            <th><label >Address</label></th>
+            <td><textarea rows="5" cols="20" name="Address"></textarea></td>
+        </tr><br>
+        <tr>
+            <th><label >State</label></th>
+            <td><input type="text" name="State"></td>
+        </tr><br>
+        <tr>
+            <th><label >City</label></th>
+            <td><input type="text" name="city"></td>
+        </tr><br>
+        <tr>
+            <th></th>
+            <td><input type="button" value="Submit" >
+           
+        </tr>
+    </form>
+    </TABLE>
+</BODY>
+</HTML>

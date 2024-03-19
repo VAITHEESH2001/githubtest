@@ -1,0 +1,23 @@
+.outer1{
+    background-color: tomato;
+   width: 120px ;
+   height: 100px;
+   display: flex;
+   overflow: hidden;
+   
+   
+
+}
+.outer1:hover{
+    width: 200px;
+    height: 150px;
+    transition: 5s;
+    
+    
+
+}
+.outer1 P:hover{
+    overflow: visible;
+    transition: 5S;
+}
+

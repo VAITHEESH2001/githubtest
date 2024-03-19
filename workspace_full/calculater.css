@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+    background-color: black;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
+/*display*/
+.display{
+    width: 80%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.display h4{
+    text-align: right;
+    font-weight: 900;
+}
+/*total body*/
+.calculator{
+    border: 2px solid whitesmoke;
+    width: 80%;
+    height: 670px;
+    
+   
+}
+/*first row of the calculator*/
+.firstrow{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* clear button*/
+.clear{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(9, 174, 177);
+    color: black;
+    border-radius: 50px;
+    font-size: larger;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+/*percentage*/
+.percentage{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(10, 169, 177);
+    color: black;
+    border-radius: 50px;
+    font-size: larger;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+/*cancel*/
+.cancel{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(240, 51, 22);
+    color: black;
+    border-radius: 50px;
+    font-size: larger;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+/*division*/
+.division{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-size: larger;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+
+/*second row*/
+.secondrow{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* nine button*/
+.nine{
+    width: 80px;
+    height: 80px;
+   background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-size: larger;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+/*eight button*/
+.eight{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-size: larger;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+/*seven button*/
+.seven{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-size: larger;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+/*multiplication*/
+.multiple{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-size: larger;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+/*third row*/
+
+
+.thirdrow{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* nine button*/
+.six{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-size: larger;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+/*eight button*/
+.five{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-size: larger;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+/*seven button*/
+.four{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-size: larger;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+/*multiplication*/
+.sub{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-size: larger;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+/*fourth row*/
+.fourthrow{
+  
+        display: flex;
+        justify-content: space-evenly;
+    }
+    /* three button*/
+    .three{
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        font-size: larger;
+        display: flex;align-items: center;
+        justify-content: center;
+    }
+    /*two button*/
+    .two{
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        font-size: larger;
+        display: flex;align-items: center;
+        justify-content: center;
+    }
+    /*one button*/
+    .one{
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        font-size: larger;
+        display: flex;align-items: center;
+        justify-content: center;
+    }
+    /*add*/
+    .add{
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        font-size: larger;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /*fifth row*/
+    .fifthrow{
+  
+        display: flex;
+        justify-content: space-evenly;
+    }
+    /* dot button*/
+    .dot{
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        font-size: larger;
+        display: flex;align-items: center;
+        justify-content: center;
+    }
+    /*zero button*/
+    .zero{
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        font-size: larger;
+        display: flex;align-items: center;
+        justify-content: center;
+    }
+    /*plusmin button*/
+    .plusmin{
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        font-size: larger;
+        display: flex;align-items: center;
+        justify-content: center;
+    }
+    /*equal*/
+    .equal{
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        font-size: larger;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    

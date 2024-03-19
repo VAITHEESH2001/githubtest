@@ -1,0 +1,87 @@
+body{
+   background-image: url(./MY_PHOTO/bg8.jpg);
+   background-size: cover;
+   background-attachment: scroll;
+   width: 800px;
+   height: 100%;
+   border: 5px solid rgb(110, 246, 69);
+   padding: 10px;
+   margin: 20px;
+   box-sizing: border-box;
+   border-radius: 20PX;
+
+}
+h1{
+   background-color: aliceblue;
+   
+}
+
+#s1{
+   display: block;
+}
+#s2{
+   display: inline;
+}
+#s3{
+visibility: visible;
+}
+#s4{
+   visibility: hidden;
+}
+h2,h3{
+   background-color: aliceblue;
+}
+#list{
+   overflow: scroll;
+   width: 100px;
+   height: 80px;
+
+}
+/*p+p{
+   background-color: rgb(240, 223, 223);
+}*/
+A:link{
+   color: green;
+}
+A:visited{
+   color: red;
+}
+A:hover{
+   color: yellow;
+}
+a:focus{
+   color: black;
+}
+a:active{
+   color: blue;
+}
+.class :nth-child(5){
+   background-color: blue;
+}
+.class ::first-letter{
+   color: rgb(249, 15, 15);
+  
+}
+#adding::after{
+   content:"world";
+}
+#adding::before{
+   content: "Hi, ";
+}
+.flexbox{
+    background-color: aqua;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    
+}
+.fleximage{
+   width: 50%; 
+   height: 50%;
+}
+   
+   
+

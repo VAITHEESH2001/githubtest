@@ -1,0 +1,112 @@
+/*Music portfolio*/
+*{
+    box-sizing: border-box;
+    color: white;
+    
+}
+.heading{
+    width: 1500px;
+    height: 80px;
+    background-color: rgb(128, 125, 125);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    border: 2px dotted;
+    
+}
+.heading h2{
+    margin-left: 100px;
+    font-size: 40px;
+   text-shadow: 4px 2px 2px skyblue;
+   font-weight: 900;
+   font-family:copper-blank;
+   
+}
+/* navigation */
+.navigation ul{
+    display: flex;
+    gap: 4px;
+    list-style: none;
+    
+    
+}
+.navigation ul li button{
+    background-color: rgb(92, 91, 91);
+    padding: 9px;
+    border-radius: 9px;
+}
+/*display */
+.displaytop{
+    width: 1500px;
+    height: 1000px;
+    background-color: rgb(121, 116, 116);
+    border-radius: 50px;
+   border: 2px dotted;
+    padding: 30px;
+}
+/*latest song */
+.latestsong{
+    border: 2px dashed;
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+   
+   
+
+}
+.latestimg{
+    display: flex;
+    gap: 15px;
+}
+.latestimg img{
+   box-shadow: 4px 4px 0px rgb(220, 217, 217);
+}
+/*top song */
+
+
+.topsong{
+    border: 2px dashed;
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+   
+   
+
+}
+.topimg{
+    display: flex;
+    gap: 15px;
+}
+.topimg img{
+   box-shadow: 4px 4px 0px rgb(220, 217, 217);
+}
+/*artist list*/
+.artistsong{
+    border: 2px dashed;
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+   
+   
+
+}
+.artistimg{
+    display: flex;
+    gap: 15px;
+}
+.artistimg img{
+   box-shadow: 4px 4px 0px rgb(220, 217, 217);
+}
+/*footer*/
+footer{
+    background-color: rgb(88, 88, 88) ;
+    width: 100%;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
